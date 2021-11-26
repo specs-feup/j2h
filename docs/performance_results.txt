@@ -1,0 +1,43 @@
+Core2Quad
+
+-------
+
+testSum()
+
+InfList Time (Long):2882
+Result:5000000050000000
+InfList Time (sumL):2713
+Result:5000000050000000
+InfList Timeb(HLong):2600
+Result:5000000050000000
+InfList Time (Long, take 2):2620
+Result:5000000050000000
+InfList Time (ListLong):3274
+Result:5000000050000000
+InfList Time (ListLong, take 2):3226
+Result:5000000050000000
+Cycle Time:4486
+
+-------
+
+testSumV2()
+
+Result:1000000000000
+Sum(Number) time:366ms
+Result:50000005000000
+Sum(Long) time:340ms
+Result:50000005000000
+ListLong.sum() time:367ms
+Result:50000005000000
+Sum.jlong() time:319ms
+Result:50000005000000
+Sum(Number) time:319ms
+Result:50000005000000
+Sum(Long) time:322ms
+Result:50000005000000
+ListLong.sum() time:368ms
+Result:50000005000000
+Sum.jlong() time:333ms
+Result:50000005000000
+Sum.real() on HInt time:8092ms
+Result:50005000
